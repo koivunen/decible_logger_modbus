@@ -1,0 +1,16 @@
+{
+    "python.autoComplete.extraPaths": [
+
+    ],
+    "yapf.args": ["--style", "{based_on_style: google, use_tabs: True}"],
+      "[python]": {
+        "editor.formatOnSaveMode": "file",
+        "editor.formatOnSave": true,
+        "editor.defaultFormatter": "eeyore.yapf",
+        "editor.formatOnType": false,
+        "editor.insertSpaces": false,
+        "editor.tabSize": 4,
+        "editor.detectIndentation" : false  
+      },
+      "python.analysis.extraPaths": []
+}
